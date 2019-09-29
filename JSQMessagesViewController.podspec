@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
 	s.license = 'MIT'
 	s.platform = :ios, '7.0'
 
-	s.author = 'Jesse Squires'
+	s.author = 'GreenRobot'
 
-	s.source = { :git => 'https://github.com/jessesquires/JSQMessagesViewController.git', :tag => s.version }
+	s.source = { :git => 'https://github.com/greenrobotllc/JSQMessagesViewController.git', :tag => s.version }
 	s.source_files = 'JSQMessagesViewController/**/*.{h,m}'
 
 	s.resources = ['JSQMessagesViewController/Assets/JSQMessagesAssets.bundle', 'JSQMessagesViewController/**/*.{xib}']
@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
 	s.frameworks = 'QuartzCore', 'CoreGraphics', 'CoreLocation', 'MapKit', 'MobileCoreServices', 'AVFoundation'
 	s.requires_arc = true
 
-	s.deprecated = true
+	s.deprecated = false
+	s.homepage = "https://github.com/greenrobotllc/JSQMessagesViewController"
 end
